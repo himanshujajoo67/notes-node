@@ -11,6 +11,7 @@ const argv = yargs.argv;
 var command = argv._[0];
 console.log('Command :',command);
 console.log('Yargs :',argv);
+//test comment
 
 if(command === 'add') {
 var note = notes.addNote(argv.title, argv.body);
